@@ -59,6 +59,15 @@ The application uses a centralized **FinanceContext** for efficient data handlin
 
 ---
 
+## 🚧 Challenges Faced
+
+*   **Tailwind CSS v4 Configuration**: Leveraging the latest version of Tailwind CSS required a strict `@import` and `@config` ordering in `index.css`. Managing global font imports alongside the new config directive initially led to PostCSS ordering errors which were resolved by prioritizing native CSS imports.
+*   **Responsive 3-Panel Architecture**: Designing a high-density "Bento Grid" that smoothly transitions from a 3-column desktop layout (Sidebar + Main + Right Sidebar) into a touch-friendly 1-column mobile stack with a custom bottom navigation bar.
+*   **Monospaced Typography Integration**: Using **JetBrains Mono** for a professional fintech look introduced unique spacing challenges, particularly ensuring alignment in the multi-column Transaction Table and the high-precision stats in the Smart Wallet.
+*   **Real-time RBAC Simulation**: Synchronizing the "Viewer" vs "Admin" UI states across multiple disparate components (Topbar, Transactions, Right Sidebar) using the React Context API to ensure an immediate and reactive user experience.
+
+---
+
 ## 🧹 Project Structure
 
 ```
