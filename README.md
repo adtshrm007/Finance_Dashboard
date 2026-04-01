@@ -85,5 +85,3 @@ src/
 ```
 
 ---
-
-*This project was built with Antigravity AI for a premium developer experience.*
