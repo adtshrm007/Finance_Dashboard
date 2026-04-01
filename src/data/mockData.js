@@ -1,0 +1,30 @@
+export const categories = [
+  { id: 'food', name: 'Food', icon: 'Utensils', color: '#f87171' },
+  { id: 'transport', name: 'Transport', icon: 'Car', color: '#60a5fa' },
+  { id: 'entertainment', name: 'Entertainment', icon: 'Play', color: '#c084fc' },
+  { id: 'shopping', name: 'Shopping', icon: 'ShoppingBag', color: '#fbbf24' },
+  { id: 'health', name: 'Health', icon: 'Heart', color: '#4ade80' },
+  { id: 'bills', name: 'Bills', icon: 'FileText', color: '#f472b6' },
+  { id: 'salary', name: 'Salary', icon: 'DollarSign', color: '#34d399' },
+  { id: 'investment', name: 'Investment', icon: 'TrendingUp', color: '#818cf8' },
+];
+
+export const initialTransactions = [
+  { id: '1', date: '2026-03-01', amount: 3500, category: 'salary', type: 'income', description: 'Monthly Salary' },
+  { id: '2', date: '2026-03-02', amount: 50, category: 'food', type: 'expense', description: 'Lunch with team' },
+  { id: '3', date: '2026-03-04', amount: 120, category: 'transport', type: 'expense', description: 'Gas refill' },
+  { id: '4', date: '2026-03-05', amount: 200, category: 'shopping', type: 'expense', description: 'New sneakers' },
+  { id: '5', date: '2026-03-08', amount: 450, category: 'bills', type: 'expense', description: 'Electricity bill' },
+  { id: '6', date: '2026-03-10', amount: 30, category: 'entertainment', type: 'expense', description: 'Netflix subscription' },
+  { id: '7', date: '2026-03-12', amount: 1500, category: 'investment', type: 'income', description: 'Stock dividends' },
+  { id: '8', date: '2026-03-14', amount: 75, category: 'food', type: 'expense', description: 'Grocery shopping' },
+  { id: '9', date: '2026-03-15', amount: 45, category: 'transport', type: 'expense', description: 'Uber ride' },
+  { id: '10', date: '2026-03-18', amount: 300, category: 'health', type: 'expense', description: 'Dentist appointment' },
+  { id: '11', date: '2026-03-20', amount: 100, category: 'entertainment', type: 'expense', description: 'Cinema tickets' },
+  { id: '12', date: '2026-03-22', amount: 250, category: 'shopping', type: 'expense', description: 'Birthday gift' },
+  { id: '13', date: '2026-03-25', amount: 80, category: 'food', type: 'expense', description: 'Dinner out' },
+  { id: '14', date: '2026-03-27', amount: 60, category: 'transport', type: 'expense', description: 'Bus pass' },
+  { id: '15', date: '2026-03-29', amount: 500, category: 'bills', type: 'expense', description: 'Rent contribution' },
+  { id: '16', date: '2026-03-30', amount: 200, category: 'investment', type: 'expense', description: 'Crypto purchase' },
+  { id: '17', date: '2026-03-31', amount: 1200, category: 'salary', type: 'income', description: 'Part-time project bonus' },
+];
